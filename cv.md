@@ -43,11 +43,11 @@ function greet (name, owner) {
 ```
 
 ## Education
-- **Specialist degree** |  Peter the Great St. Petersburg Polytechnic University
+- **Specialist degree**,  Peter the Great St. Petersburg Polytechnic University
 
 ## Career summary
-- **Jan 2011 - Jan 2015** | **1C developer**  
-- **May 2024 - now** | **RS School**          
+- **Jan 2011 - Jan 2015** **1C developer** [Freelance account](https://1clancer.ru/user.info/userId=4018)
+- **May 2024 - now** **RS School** [My first project](https://troninaev.github.io/rsschool-cv/cv)        
 ## Additional
 ### Languages
  - English (Intermediate)
