@@ -46,8 +46,8 @@ function greet (name, owner) {
 - **Specialist degree** |  Peter the Great St. Petersburg Polytechnic University
 
 ## Career summary
-**Jan 2011 - Jan 2015** | **1C developer**  
-**May 2024 - now** | **RS School**          
+- **Jan 2011 - Jan 2015** | **1C developer**  
+- **May 2024 - now** | **RS School**          
 ## Additional
 ### Languages
  - English (Intermediate)
