@@ -72,27 +72,6 @@ footer {
     transition: 0.3s;
 }
 
-.toggle {
-    display: none;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    margin-top: 5px;
-    margin-left: auto;
-    cursor: pointer;
-    user-select: none;
-    z-index: 15;
-}
-
-.toggle div {
-    width: 80%;
-    height: 2px;
-    background: #fff;
-    margin: 3px 0;
-    z-index: 15;
-}
 .section-item a {
     color: #829985;
     text-decoration: none;
@@ -190,6 +169,7 @@ footer {
 
 .section-code {
     overflow: auto;
+    background-color:   rgb(244, 249, 255);
 }
 
 @media (max-width: 1440px) {
