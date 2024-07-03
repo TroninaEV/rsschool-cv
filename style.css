@@ -183,3 +183,7 @@ footer {
 .margin { 
     margin-top: 50px;
 }
+
+.section-code {
+    overflow: auto;
+}
