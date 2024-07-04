@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/img/cv_icon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#career" class="nav-link">Career</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container main-container">
+            <section class="section-profile-main" id="profile">
+                <img src="assets/img/avatar.png" alt="avatar" class="avatar">
+                <div class="section-profile">
+                    <h1 class="section-title-profile">Elena Tronina</h1>
+                    <p class="section-text-profile">Junior front-end developer</p>
+                </div>
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title-profile">Contacts</h2>
+                <ul class="section-list-contacts">
+                    <li class="section-list-item"><img class="img-marker" src="assets/img/phones.svg" alt="phone">+7(904)-000-00-00</li>
+                    <li class="section-list-item"><img class="img-marker" src="assets/img/email.svg"  alt="email">troninae@gmail.com</li>
+                    <li class="section-list-item"><img class="img-marker" src="assets/img/discord32.svg" alt="discord">troninae</li>
+                    <li class="section-list-item"><img class="img-marker" src="assets/img/telegram32.svg" alt="telegram"><a href="https://t.me/Elen1C" class="list-link" target="_blank">@Elen1C</a></li>
+                </ul>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section-title-profile">Summary</h2>
+                <p class="margin">I have IT experience as 1C developer. Now I'm learning JavaScript and want to become
+                    a front-end
+                    developer.</p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title-profile">Skills</h2>
+                <ul class="section-list">
+                    <li class="section-list-item">Html, CSS</li>
+                    <li class="section-list-item">1C</li>
+                    <li class="section-list-item">JS</li>
+                    <li class="section-list-item">Git</li>
+                    <li class="section-list-item">VS Code</li>
+                </ul>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title-profile">Code</h2>
+                <p>Receive an array with peers' test scores. Compare your score with average. Return true if you're better, else false:</p>
+                <pre class="section-code">
+                <code>
+function betterThanAverage(classPoints, yourPoints) {
+    classPoints.push(yourPoints);
+    let length = classPoints.length;
+    let sum = 0;
+    for (let i = 0; i &lt; length; i++)
+    {
+        sum = sum + classPoints[i];
+    }
+    let average = sum/length;
+    if(yourPoints &gt; average){
+        return true;
+    }
+        return false;
+}</code>
+            </pre>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title-profile">Education</h2>
+                <p><b>Specialist degree</b>, Peter the Great St. Petersburg Polytechnic University</p>
+            </section>
+            <section class="section" id="career">
+                <h2 class="section-title-profile">Career</h2>
+                <ul class="section-list">
+                    <li class="section-list-item"><b>Jan 2011 - Jan 2015</b> 1C developer</li>
+                </ul>
+            </section>
+            
+            
+            <section class="section" id="projects">
+                <h2 class="section-title-profile">Projects</h2>
+                <ul class="section-list">
+                    <li class="section-list-item"><a href="https://troninaev.github.io/rsschool-cv/cv" target="_blank">My first Markdown project</a></li>
+                    <li class="section-list-item"><a href="https://troninaev.github.io/rsschool-cv/" target="_blank">My first HTML/CSS project</a></li>
+                </ul>
+            </section>
+            <section class="section" id="languages">
+                <h2 class="section-title-profile">Languages</h2>
+                <ul class="section-list">
+                    <li class="section-list-item">English (B1)</li>
+                    <li class="section-list-item">French (A1)</li>
+                    <li class="section-list-item">Russian (Native)</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p><a href="https://rs.school/courses/javascript-preschool-ru" target="_blank"><img height=64 src="assets/img/logo-rs.svg" alt="JS front-end pre school"></a>
+            2024 <a href="https://github.com/TroninaEV" target="_blank" class="list-link">Tronina Elena</a> </p>          
+        </div>
+    </footer>
+</body>
+
+</html>
