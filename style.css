@@ -13,12 +13,12 @@
 * {
     box-sizing: border-box;
 }
-a{
+/* a{
     color: #0c0e12;
 }
 a:visited{
     color: #000;
-}
+} */
 
 html {
     scroll-behavior: smooth;
@@ -45,11 +45,13 @@ header {
 }
 
 main {
-    border-bottom: 1px solid  #81a3cc;
+
 }
 
 footer {
 
+    background-color: #c6dfff;
+    border-top: 1px solid #81a3cc;
     /* border: 1px solid rgb(30, 255, 0); */
 }
 
@@ -116,6 +118,11 @@ footer {
 .section-list-contacts {
 	list-style-type: none;
     font-weight: 600;
+    padding: 10px;
+}
+
+.section-list {
+	list-style-type: circle;
 }
 
 .img-marker{
